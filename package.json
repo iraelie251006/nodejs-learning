@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js learning notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/iraelie251006/nodejs-learning.git"
+  },
+  "author": "Niyubwayo Irakoze Elie",
+  "license": "MIT"
+}
