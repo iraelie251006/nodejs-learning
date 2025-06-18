@@ -1,9 +1,7 @@
-function generateRandomNumber() {
+export function generateRandomNumber() {
     return Math.floor(Math.random() * 100 + 1)
 };
 
-function celciusToFahrenheit(celsius) {
+export function celciusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
-
-module.exports = {generateRandomNumber, celciusToFahrenheit};

@@ -13,7 +13,7 @@
 // Global variables you declare with var (but not with let or const)
 
 // console.log(process)
+import {generateRandomNumber, celciusToFahrenheit} from './utils.js';
 
-const {generateRandomNumber, celciusToFahrenheit} = require('./utils');
 const randomNumber = generateRandomNumber();
 console.log(`Celcius: ${randomNumber} -> Fahrenheit: ${celciusToFahrenheit(randomNumber)}`);
